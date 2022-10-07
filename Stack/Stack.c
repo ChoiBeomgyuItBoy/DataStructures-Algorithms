@@ -38,7 +38,7 @@ void push(int value) // Adds the element to the top
 
 void pop() // Removes the last added element 
 {
-    if(top == NULL) { printf("Stack is empty\n") ; return; }
+    if(top == NULL) { printf("Stack is empty\n"); return; }
 
     Node *current = top;
     top = current -> next;
@@ -49,7 +49,7 @@ void pop() // Removes the last added element
 
 void printQueue() // Prints the Stack
 {
-    if(top == NULL) { printf("Stack is empty\n") ; return; }
+    if(top == NULL) { printf("Stack is empty\n"); return; }
 
     Node *current = top;
 
