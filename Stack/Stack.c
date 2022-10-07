@@ -1,4 +1,4 @@
-//  ----- Queue implementation in C -----
+//  ----------- Stack implementation in C -----------
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -9,7 +9,7 @@ typedef struct Node
     struct Node *next;
 } Node;
 
-Node *top; // Reference to the top of the Stack (last element added to it)
+Node *top; // Reference to the top of the Stack (last added element)
 
 Node *createNewNode(int value) 
 {
@@ -25,29 +25,29 @@ void push(int value) // Adds the element to the top
 {
     Node *current = createNewNode(value);
 
-    if(top == NULL)
+    if(top == NULL)                     
     {
         top = current;
-    }
-    else
-    {
+    }                               
+    else                                
+    {                                   
         current -> next = top;
         top = current;
     }
 }
 
-void pop() // Removes the last added element 
+void pop() // Removes the last added element (Last In First Out)
 {
     if(top == NULL) { printf("Stack is empty\n"); return; }
 
     Node *current = top;
-    top = current -> next;
-
+    top = current -> next;              
+                                        
     current = NULL;
     free(current);
 }
 
-void printQueue() // Prints the Stack
+void printStack() // Prints the Stack
 {
     if(top == NULL) { printf("Stack is empty\n"); return; }
 
@@ -71,15 +71,15 @@ int main()
         push(i + 1);
     }
 
-    printf("Original Queue: \n");
+    printf("Original Stack: \n");
 
-    printQueue(); // [ 10 9 8 7 6 5 4 3 2 1 ]
+    printStack(); // Output : [ 10 9 8 7 6 5 4 3 2 1 ]
 
     pop(); pop(); // Popping last 2 elements (10 and 9)
 
-    printf("Queue after pop: \n");
+    printf("Stack after pop: \n");
 
-    printQueue(); // [ 8 7 6 5 4 3 2 1 ]
+    printStack(); // Output : [ 8 7 6 5 4 3 2 1 ]
 
     return 0;
 }
