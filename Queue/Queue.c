@@ -10,8 +10,7 @@ typedef struct Node
 } Node; 
 
 Node *head; // Reference to the top of the Queue (first added element)
-Node *tail; // Reference to the tail of the Queue (last added element)
-Node *previous; 
+Node *tail; // Reference to the tail of the Queue (last added element) 
 
 Node *createNewNode(int value)
 {
@@ -31,13 +30,11 @@ void enqueue(int value) // Adds an element to the tail
     {
         head = current;
         tail = current;
-        previous = current;
     }
     else
     {
-        previous -> next = current;
+        tail -> next = current;
         tail = current;
-        previous = current;
     }
 }
 
