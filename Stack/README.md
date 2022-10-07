@@ -5,3 +5,6 @@
  - Functions : 
    - push() to add to the top
    - pop() to remove from the top
+   
+   ![image](https://user-images.githubusercontent.com/113314204/194517657-4c2add74-3003-424b-af22-9d8c7a1e329c.png)
+
