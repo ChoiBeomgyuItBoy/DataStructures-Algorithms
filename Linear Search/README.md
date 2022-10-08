@@ -6,9 +6,7 @@
  - Complexity:
    - Time - O(n) 
    - Space - O(n)
- 
- - **It is the easiest searching algorithm**.
- 
+   
  - Pros:
    - Fast for searches of small to medium data sets.
    - Does't need to be sorted.
@@ -16,5 +14,7 @@
    
  - Cons:
    - Slow for large data sets.
+
+ - **It is the easiest searching algorithm**.
 
    ![image](https://user-images.githubusercontent.com/113314204/194683824-b74a6dcd-3841-4975-8932-2df8127639bd.png)
