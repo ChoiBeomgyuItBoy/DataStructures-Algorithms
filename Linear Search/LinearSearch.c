@@ -25,11 +25,11 @@ int main()
 
     if(index == -1)
     {
-        printf("Target %d not found\n", targetValue);   // Output : Found target 23 at index 9
+        printf("Target %d not found\n", targetValue);  
     }
     else
     {
-        printf("Found target %d at index %d\n", targetValue, index);
+        printf("Found target %d at index %d\n", targetValue, index);    // Output : Found target 23 at index 9
     }
 
     return 0;
