@@ -1,7 +1,7 @@
 # Linear Search
  - Linear Search is defined as a sequential search algorithm 
  
- - starts at one end and goes through each element of a list until the desired element is found, the search continues till the end of the data set
+ - Starts at one end and goes through each element of a list until the desired element is found, the search continues till the end of the data set
  
  - **It is the easiest searching algorithm**
 
