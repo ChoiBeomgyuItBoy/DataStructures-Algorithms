@@ -17,4 +17,4 @@
 
  - **It is the easiest searching algorithm**.
 
-      ![linear_search](https://user-images.githubusercontent.com/113314204/194691500-e598d34a-cd0e-49f4-ada0-36b6d96f3d62.gif)
+      ![linearsearchitr](https://user-images.githubusercontent.com/113314204/194691627-36acfc2e-0831-4122-8022-505ec57c1ff4.gif)
