@@ -1,6 +1,12 @@
 # Binary Search (Iterative)
  - Binary Search is a searching algorithm for finding an element's position in a sorted array.
+ 
  - Half of the array is eliminated during each "step".
+ 
+ - Complexity;
+    - Time - (O log n) - the algorithm gets better as the collection grows.
+    - Space - (O log n)
+    
  - Steps: 
     - Begin with the mid element of the whole array as a search key.
     - If the value of the search key is equal to the target then return an index of the search key.
