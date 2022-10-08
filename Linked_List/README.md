@@ -14,6 +14,6 @@
   ![image](https://user-images.githubusercontent.com/113314204/194679397-a5ac27a1-129f-4679-a99d-19596ad3cf1d.png)
   
  - Functions:
-  - delete() to delete a certain element
-  - add() to add an element at the end or top 
-  - insert() to insert an element at a certain position 
+   - delete() to delete a certain element
+   - add() to add an element at the end or top 
+   - insert() to insert an element at a certain position 
