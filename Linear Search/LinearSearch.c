@@ -4,15 +4,15 @@
 
 int linearSearch(int array[], int size, int targetValue)
 {
-    for(int i = 0; i < size; i++)   // Iterates through all the array 
+    for(int i = 0; i < size; i++) // Iterates through all the array 
     {
         if(array[i] == targetValue) // Checks if the current value of the array is equal to the target
         {
-            return i;               // Returns the index 
+            return i;  // Returns the index 
         }
     }
 
-    return -1;                      // If the target wasn't found, returns -1
+    return -1;  // If the target wasn't found, returns -1
 }
 
 int main()
