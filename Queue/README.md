@@ -6,5 +6,4 @@
   - enqueue() to add an element to the end of the queue
   - dequeue() to remove an element from the front of the queue
 
-  ![image](https://user-images.githubusercontent.com/113314204/194653173-5e8777cf-1a94-4eca-be30-3a16cc75fe39.png)
-
+  ![q1](https://user-images.githubusercontent.com/113314204/194691820-6db3e523-fabb-4bc9-afa9-5594e22b207e.gif)
