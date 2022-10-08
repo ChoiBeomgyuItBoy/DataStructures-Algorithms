@@ -3,9 +3,15 @@
  
  - Half of the array is eliminated during each "step".
  
- - Complexity;
+ - Complexity:
     - Time - (O log n) - the algorithm gets better as the collection grows.
     - Space - (O log n)
+    
+ - Pros:
+    - It's extremely efficient for big data sets.
+
+ - Cons:
+    - It's not efficient for small data sets.
     
  - Steps: 
     - Begin with the mid element of the whole array as a search key.
