@@ -8,6 +8,13 @@
   - Complexity;
      - Time: O(1) - for enqueue and dequeue.
      - Space: O(1) - no extra memory required for operations.
+
+  - Pros:
+     - Very fast in operating data.
+     - Helpful in managing user needs.
+
+  - Cons:
+     - A new element cannot be inserted without the deletion of the old element.
      
   - Operations:
      - enqueue() to add an element to the end of the queue
