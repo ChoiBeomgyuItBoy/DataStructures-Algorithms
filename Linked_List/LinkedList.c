@@ -96,7 +96,7 @@ void printList() // Prints the List
 
 int main()
 {
-    for(int i = 0; i < 4; i++) // Filling list with numbers from 1 to 4
+    for(int i = 0; i < 4; i++)  // Filling list with numbers from 1 to 4
     {
         add(i + 1);
     }
@@ -106,7 +106,7 @@ int main()
     printList(); printf("Top is : %d / End is %d\n", top -> value, end -> value);   // Output : [ 1 2 3 4 ]
                                                                                     // Top is : 1 / End is : 4                                                                            
     delete(1);
-    delete(2);                // Deleting top, end, and middle element of the list
+    delete(2);  // Deleting top, end, and middle element of the list
     delete(4);
 
     printf("\nList after delete: \n");
