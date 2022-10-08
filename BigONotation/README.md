@@ -1,4 +1,4 @@
-  #Big O Notation
+ # Big O Notation
   
   ![image](https://user-images.githubusercontent.com/113314204/194681705-2cbea71f-3219-477a-817f-deb84b300b6e.png)
   
