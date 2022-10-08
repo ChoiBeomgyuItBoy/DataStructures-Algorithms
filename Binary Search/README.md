@@ -1,4 +1,4 @@
-# Binary Search (Iterative)
+# Binary Search (Iterative Approach)
  - Binary Search is a searching algorithm for finding an element's position in a sorted array.
  
  - Half of the array is eliminated during each "step".
