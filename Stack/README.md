@@ -8,6 +8,13 @@
  - Complexity:
    - Time: O(1) - for push and pop
    - Space: O(1) - doesn't require extra memory for operations.
+   
+ - Pros:
+   - Very fast in operating data.
+   - Good for keeping track of data.
+   
+ - Cons:
+   - Random accessing is not possible.
  
  - Operations : 
    - push() to add to the top
