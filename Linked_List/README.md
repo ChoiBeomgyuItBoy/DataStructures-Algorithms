@@ -4,8 +4,8 @@
  - They include a series of connected nodes. Here, each node stores the data and the address of the next node.
  
  - Pros:
-  - Lists are dynamic, they can grow or shrink depending on the situation.
-  - Ease of Insertion/Deletion.
+   - Lists are dynamic, they can grow or shrink depending on the situation.
+   - Ease of Insertion/Deletion.
   
  - Cons: 
    - Random access is not allowed. We have to access elements sequentially starting from the first node(head node).
