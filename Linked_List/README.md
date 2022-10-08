@@ -1,7 +1,13 @@
 # Linked List
  - Linked List is a linear data structure. 
+
  - Unlike arrays, linked list elements are not stored at a contiguous location; the elements are linked using pointers.
+ 
  - They include a series of connected nodes. Here, each node stores the data and the address of the next node.
+ 
+ - Complexity:
+   - Time: O(n) - depends on the amount of nodes that the list holds.
+   - Space: O(n)
  
  - Pros:
    - Lists are dynamic, they can grow or shrink depending on the situation.
