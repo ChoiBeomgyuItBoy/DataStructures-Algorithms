@@ -1,6 +1,6 @@
 using System;
 
-public class Node 
+public class Node // Represents each node as an object 
 {
   public Object data;
   public Node next;
@@ -135,7 +135,7 @@ public class Program
 {
   public static void Main()
   {
-    //TEST
+    //-----------------------------------------TEST-----------------------------------------
     
     LinkedList<int> intList = new LinkedList<int>(); // Instantiation of LinkedList of type int
     //LinkedList<string> stringList = new LinkedList<string>(); if we wanted to work with strings for example
