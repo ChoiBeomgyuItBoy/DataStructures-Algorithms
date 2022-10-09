@@ -15,10 +15,10 @@ public class Node
 public class LinkedList<T> // Linked List of Generics (any data type)
 {
   private Node top;
-  public Object Top { get { return top.data; }} // Getter for the top of the list
+  public Object Top { get { return top.data; } } // Getter for the top of the list
 
   private Node end;
-  public Object End { get { return end.data; }} // Getter for the end of the list
+  public Object End { get { return end.data; } } // Getter for the end of the list
 
   public void AddToEnd(T data) // Adds element to the end of the list
   {
